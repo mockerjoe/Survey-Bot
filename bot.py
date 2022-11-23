@@ -20,7 +20,7 @@ def driverSwitch():
 def executeBot():
 	file = open('combolist.txt')
 	content = file.readlines()
-
+	
 	tries = int(test.get())
 	timer = int(delay.get())
 
